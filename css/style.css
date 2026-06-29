@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.container {
+    width: 92%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.hero {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(135deg, #4D3791, #6A4FB3);
+}
+
+.logo {
+    font-size: 80px;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+h2 {
+    color: #D4AF37;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #f0f0f0;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.buttons a,
+.page a {
+    display: inline-block;
+    padding: 12px 22px;
+    margin: 8px;
+    background: #D4AF37;
+    color: #111;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+.buttons .secondary {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 18px;
+    margin: 50px 0;
+}
+
+.card {
+    background: #1E1E1E;
+    padding: 24px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 32px;
+}
+
+.card h3 {
+    font-size: 22px;
+    margin: 12px 0 8px;
+}
+
+.card p {
+    font-size: 15px;
+    color: #cccccc;
+}
+
+.page {
+    padding: 40px 0;
+}
+
+ul {
+    padding-left: 22px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #cccccc;
+    border-top: 1px solid #333;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 38px;
+    }
+
+    .hero p {
+        font-size: 17px;
+    }
+}
